@@ -20,6 +20,7 @@ name: branch_1x jdk8 build
 on:
   push:
     branches: [branch_1x]
+  workflow_dispatch:
 
 jobs:
   build:
